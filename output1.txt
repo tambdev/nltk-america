@@ -1,0 +1,96 @@
++--------------------------------------------------------------------------+
+   Progetto di Linguistica Computazionale 2016/2017 Stefano Tambellini
+   Programma numero 1
+   Corpora di input: donaldRaw.txt hillaryRaw.txt
++--------------------------------------------------------------------------+
+
+Scegli un valore da confrontare tra i due corpora o un operazione da eseguire:
+
+1) Numero di token del corpus;
+
+2) Lunghezza media delle frasi in termini di token;
+
+3) Grandezza del vocabolario all'aumento del corpus per porzioni 
+   incrementali di 1000 token (1000 token, 2000 token, 3000 token, etc.);
+
+4) Ricchezza lessicale calcolata attraverso la Type Token Ratio 
+   (TTR) all'aumento del corpus per porzioni incrementali di 1000 token;
+
+5) Rapporto tra sostantivi e verbi (indice che caratterizza 
+   variazioni di registro linguistico);
+
+6) Densità lessicale, calcolata come il rapporto tra il numero 
+   totale di occorrenze nel testo di Sostantivi, Verbi, Avverbi, Aggettivi e 
+   il numero totale di parole nel testo (ad esclusione dei segni di 
+   punteggiatura marcati con POS "," ".");
+
+h) Mostrare istruzioni;
+q) Chiudere il programma;
+
+Scegli l'operazione: 1
+donaldRaw.txt ha 8674 token
+hillaryRaw.txt ha 8690 token
+
+Scegli l'operazione: 2
+La media di token per frase di donaldRaw.txt è di 20.90120481927711 token
+La media di token per frase di hillaryRaw.txt è di 20.209302325581394 token
+
+Scegli l'operazione: 3
+
+Parole tipo ogni 1000 token in donaldRaw.txt :
+Numero Token  :  Parole Tipo
+       1000   :   397
+       2000   :   657
+       3000   :   803
+       4000   :   935
+       5000   :   1023
+       6000   :   1108
+       7000   :   1293
+       8000   :   1441
+       8674   :   1512
+
+Parole tipo ogni 1000  token in hillaryRaw.txt :
+Numero Token  :  Parole Tipo
+       1000   :   393
+       2000   :   644
+       3000   :   831
+       4000   :   980
+       5000   :   1117
+       6000   :   1291
+       7000   :   1403
+       8000   :   1522
+       8690   :   1665
+
+Scegli l'operazione: 4
+
+TTR ogni 1000 token in donaldRaw.txt :
+Numero Token  :  Type-Token Ratio
+       1000   :   0.397
+       2000   :   0.3285
+       3000   :   0.26766666666666666
+       4000   :   0.23375
+       5000   :   0.2046
+       6000   :   0.18466666666666667
+       7000   :   0.18471428571428572
+       8000   :   0.180125
+       8674   :   0.17431404196449157
+
+TTR ogni 1000  token in hillaryRaw.txt 
+Numero Token  :  Type-Token Ratio
+       1000   :   0.393
+       2000   :   0.322
+       3000   :   0.277
+       4000   :   0.245
+       5000   :   0.2234
+       6000   :   0.21516666666666667
+       7000   :   0.20042857142857143
+       8000   :   0.19025
+       8690   :   0.1915995397008055
+
+Scegli l'operazione: 5
+donaldRaw.txt  ha rapporto sostantivi/verbi uguale a  1.945578231292517
+hillaryRaw.txt  ha rapporto sostantivi/verbi uguale a  1.1959766385463984
+
+Scegli l'operazione: 6
+donaldRaw.txt  ha densità lessicale uguale a 0.5480747060179848
+hillaryRaw.txt  ha densità lessicale uguale a 0.5028768699654775
